@@ -32,14 +32,20 @@ Markdown 笔记支持演示模式查看；
 —— 以下语法均支持在编辑工具栏直接操作 —— 
 ### 设置分级标题
 语法示例：
-```
+
+`# 一级标题`
 # 一级标题
+`## 二级标题`
 ## 二级标题
+`### 三级标题`
 ### 三级标题
+`#### 四级标题`
 #### 四级标题
+`##### 五级标题`
 ##### 五级标题
+`###### 六级标题`
 ###### 六级标题
-```
+
 ### 加粗文本
 语法示例：
 
@@ -53,10 +59,9 @@ Markdown 笔记支持演示模式查看；
 ### 下划线
 语法示例：
 
-`<u>印象笔记</u>`
-<u>
-印象笔记
-</u>
+`<u>印象笔记</u>`  
+<span style="border-bottom:2px black;">印象笔记</span>  
+>这里很奇怪<u>在preview中无法实现underline效果,换用<span>
 ### 删除线
 语法示例：
 
@@ -124,8 +129,8 @@ Markdown 笔记支持演示模式查看；
 * @w=200h=100
 * @h=100w=200
 
-示例笔记
-`![image](https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png)@w=100`
+示例:  
+`![image](https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png)@w=100`  
 <img src="https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png" alt="yinxiang" title="印象" width="100px" />
 >备注:GFM不支持此语法,此处图片效果由html实现
 ### 插入表格
@@ -206,7 +211,7 @@ else:    
 e^{i\pi} + 1 = 0
 ```
 ![math.png](https://github.com/HuChanghong/MarkdownStudy/blob/master/img/math.png)  
-更多数学公式的输入可以参考： https://khan.github.io/KaTeX/docs/supported.html
+更多数学公式的输入可以参考： [KaTeX](https://khan.github.io/KaTeX/docs/supported.html)
 ### 插入流程图
 语法示例：
 >\`\`\`mermaid  
@@ -216,7 +221,8 @@ B -->C{判断条件C}
 C -->|条件C1| D[模块D]  
 C -->|条件C2| E[模块E]  
 C -->|条件C3| F[模块F]  
-\`\`\`
+\`\`\`  
+
 ![graph_TD.img](https://github.com/HuChanghong/MarkdownStudy/blob/master/img/graph_TD.png)  
 ### 插入时序图
 语法示例：
@@ -224,7 +230,8 @@ C -->|条件C3| F[模块F]
 sequenceDiagram  
 A->>B: 是否已收到消息？  
 B-->>A: 已收到消息  
-\`\`\`
+\`\`\`  
+
 ![sequenceDiagram.img](https://github.com/HuChanghong/MarkdownStudy/blob/master/img/sequenceDiagram.png)  
 
 ### 插入甘特图
@@ -239,7 +246,8 @@ section 项目A
 section 项目B  
 任务3 :2018-06-12 , 12d  
 任务4 : 24d  
-\`\`\`
+\`\`\`  
+
 ![gantt.img](https://github.com/HuChanghong/MarkdownStudy/blob/master/img/gantt.png)  
 ### 设置目录
 设置之后可以自动根据设置的分级标题来自动生成目录。  
@@ -247,25 +255,27 @@ section 项目B
 `[TOC]`
 
 ## 五、印象笔记 Markdown 支持什么快捷键？
-Windows 端
-|新建 Markdown 笔记|Ctrl+Alt+D|
-|---|---|
-|粗体|Ctrl+B|
-|斜体|Ctrl+I|
-|删除线|Ctrl+T|
-|下划线|Ctrl+U|
-|分隔线|Ctrl + Shift + -|
-|编号列表|Ctrl + Shift + O|
-|项目符号列表|Ctrl + Shift + B|
-|插入待办事项|Ctrl + Shift + C|
-|代码块|Ctrl+Shift+L|
-|插入日期和时间|Alt + Shift + D|
-|撤销|Ctrl+Z|
-|在笔记内搜索|Ctrl+F|
+Windows 端  
 
-Mac 端
+|新建 Markdown 笔记|Ctrl+Alt+D|  
+|:---:|:---:|  
+|粗体|Ctrl+B|  
+|斜体|Ctrl+I|  
+|删除线|Ctrl+T|  
+|下划线|Ctrl+U|  
+|分隔线|Ctrl + Shift + -|  
+|编号列表|Ctrl + Shift + O|  
+|项目符号列表|Ctrl + Shift + B|  
+|插入待办事项|Ctrl + Shift + C|  
+|代码块|Ctrl+Shift+L|  
+|插入日期和时间|Alt + Shift + D|  
+|撤销|Ctrl+Z|  
+|在笔记内搜索|Ctrl+F|  
+
+Mac 端  
+
 |新建 Markdown 笔记|CMD+D|
-|---|---|
+|:---:|:---:|
 |粗体|CMD+B|
 |斜体|CMD+I|
 |删除线|CMD+S|
