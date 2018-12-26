@@ -121,7 +121,7 @@ Markdown 笔记支持演示模式查看；
 ### 插入图表
 目前支持饼状图、折线图、柱状图和条形图，只需将 type 改为对应的pie、line、column 和 bar。
 
-![chart_pie.png](https://github.com/HuChanghong/MarkdownStudy/blob/master/img/chart_pie.png"chart_pie")
+![chart_pie.png](/img/chart_pie.png "chart_pie")
 
 ```chart
 ,预算,收入,花费,债务
