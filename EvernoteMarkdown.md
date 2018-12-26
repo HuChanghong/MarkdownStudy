@@ -60,8 +60,8 @@ Markdown 笔记支持演示模式查看；
 语法示例：
 
 `<u>印象笔记</u>`  
-<span style="border-bottom:2px black;">印象笔记</span>  
->这里很奇怪<u>在preview中无法实现underline效果,换用<span>
+<u>印象笔记</u>
+>这里很奇怪在preview中无法实现underline效果  
 ### 删除线
 语法示例：
 
