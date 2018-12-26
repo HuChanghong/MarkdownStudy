@@ -120,7 +120,9 @@ Markdown 笔记支持演示模式查看；
 | 当前价格 | 免费 | ￥8.17/月 | ￥12.33/月|
 ### 插入图表
 目前支持饼状图、折线图、柱状图和条形图，只需将 type 改为对应的pie、line、column 和 bar。
-![03f089a224990ccee1147598b643a1b7.png](en-resource://database/16805:1)
+
+![chart_pie.png](/img/chart_pie.png"chart_pie")
+
 ```chart
 ,预算,收入,花费,债务
 June,5000,8000,4000,6000
